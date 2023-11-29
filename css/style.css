@@ -1,0 +1,45 @@
+.container {
+    width: 906px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+/* header content */
+
+
+.header {
+}
+.header__nav {
+}
+.header__nav__list {
+}
+.header__nav__link {
+
+}
+
+.header__nav__link:hover, 
+.header__nav__link:focus {}
+
+
+
+
+ /* main content */
+
+.blog__list {
+}
+.blog__item {
+}
+.blog__item__img {
+    width: 420px;
+height: 280px;
+
+
+}
+.blog__item__subtitle {
+}
+.blog__item__title {
+}
+.blog__item__text {
+}
+.blog__button {
+}
