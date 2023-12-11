@@ -2,44 +2,83 @@
     width: 906px;
     margin: 0 auto;
     padding: 0 15px;
+outline: 1px solid red;
 }
 
 /* header content */
 
 
 .header {
+    margin-top: 71px;
+    margin-bottom: 92px;
 }
+
 .header__nav {
+   
 }
+
 .header__nav__list {
+    display: flex;
+    gap: 99px;
+    justify-content: center;
 }
+
 .header__nav__link {
+    color: #7D7D7D;
 
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
-.header__nav__link:hover, 
+.header__nav__link:hover,
 .header__nav__link:focus {}
 
 
 
 
- /* main content */
+/* main content */
 
 .blog__list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 65;
 }
-.blog__item {
-}
+
+.blog__item {}
+
 .blog__item__img {
     width: 420px;
-height: 280px;
+    height: 280px;
 
 
 }
+
 .blog__item__subtitle {
+    color: #B4AD9E;
+
+    font-family: Ubuntu;
+    font-size: 14px;
+    font-weight: 300;
 }
+
 .blog__item__title {
+    color: #626262;
+
+    font-family: Playfair Display;
+    font-size: 30px;
+    font-weight: 400;
 }
+
 .blog__item__text {
+    color: #626262;
+
+    font-family: Playfair Display;
+    font-size: 14px;
+    font-weight: 400;
+
 }
-.blog__button {
-}
+
+.blog__button {}
